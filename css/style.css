@@ -54,8 +54,6 @@ html {
     transition-duration: 0.4s;
 }  
 
-
-
 .gomb1 {
     background-color: white; 
     color: black; 
@@ -95,6 +93,11 @@ html {
 .gomb4:hover {
   background-color: yellowgreen;
 }  
+
+.letiltott{
+  opacity: 0.6;
+  cursor: default;
+}
 
 .arckep {
   max-width: 100%;
@@ -143,6 +146,11 @@ div.megjegyzes {
   text-align: center;
 }
 
-p {
-    
+body{
+  background-color:rgb(182, 253, 229);
 }
+
+p {
+  margin: 10px;
+  color: #222;
+}  
